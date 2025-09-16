@@ -1,0 +1,40 @@
+identity:
+  name: "resize"
+  author: "yt-koike"
+  label:
+    en_US: "Resize"
+description:
+  human:
+    en_US: "Set a pixel"
+  llm: "Set a pixel"
+parameters:
+  - name: image
+    type: file
+    required: true
+    label:
+      en_US: Image
+    human_description:
+      en_US: "Image"
+    llm_description: "Image"
+    form: llm
+  - name: width
+    type: number
+    required: true
+    label:
+      en_US: width
+    human_description:
+      en_US: "width"
+    llm_description: "width"
+    form: llm
+  - name: height
+    type: number
+    required: true
+    label:
+      en_US: height
+    human_description:
+      en_US: "height"
+    llm_description: "height"
+    form: llm
+extra:
+  python:
+    source: tools/resize.py

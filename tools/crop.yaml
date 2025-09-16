@@ -1,0 +1,58 @@
+identity:
+  name: "crop"
+  author: "yt-koike"
+  label:
+    en_US: "Crop"
+description:
+  human:
+    en_US: "Crop"
+  llm: "Set a pixel"
+parameters:
+  - name: image
+    type: file
+    required: true
+    label:
+      en_US: Image
+    human_description:
+      en_US: "Image"
+    llm_description: "Image"
+    form: llm
+  - name: left_x
+    type: number
+    required: true
+    label:
+      en_US: Left X
+    human_description:
+      en_US: "width"
+    llm_description: "width"
+    form: llm
+  - name: top_y
+    type: number
+    required: true
+    label:
+      en_US: Top Y
+    human_description:
+      en_US: "width"
+    llm_description: "width"
+    form: llm
+  - name: right_x
+    type: number
+    required: true
+    label:
+      en_US: Right X
+    human_description:
+      en_US: "width"
+    llm_description: "width"
+    form: llm
+  - name: bottom_y
+    type: number
+    required: true
+    label:
+      en_US: Bottom Y
+    human_description:
+      en_US: "width"
+    llm_description: "width"
+    form: llm
+extra:
+  python:
+    source: tools/crop.py

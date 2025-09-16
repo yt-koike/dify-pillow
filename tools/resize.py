@@ -8,7 +8,7 @@ from dify_plugin.entities.tool import (
 from tools.common import DifyPillow
 
 
-class NewImage(Tool):
+class Resize(Tool):
     def _invoke(self, tool_parameters: dict[str, Any]) -> Generator[ToolInvokeMessage]:
         """
         invoke tools

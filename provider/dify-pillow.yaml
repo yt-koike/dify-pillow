@@ -50,10 +50,14 @@ identity:
 #         en_US: "Access Token"
 
 tools:
-  - tools/set_pixel.yaml
   - tools/image_info.yaml
-  - tools/get_pixel.yaml
   - tools/new_image.yaml
+  - tools/get_pixel.yaml
+  - tools/set_pixel.yaml
+  - tools/crop.yaml
+  - tools/resize.yaml
+  - tools/rotate.yaml
+  - tools/simple_ops.yaml
 extra:
   python:
     source: provider/dify-pillow.py

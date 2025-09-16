@@ -1,0 +1,31 @@
+identity:
+  name: "rotate"
+  author: "yt-koike"
+  label:
+    en_US: "Rotate"
+description:
+  human:
+    en_US: "Set a pixel"
+  llm: "Set a pixel"
+parameters:
+  - name: image
+    type: file
+    required: true
+    label:
+      en_US: Image
+    human_description:
+      en_US: "Image"
+    llm_description: "Image"
+    form: llm
+  - name: angle
+    type: number
+    required: true
+    label:
+      en_US: angle
+    human_description:
+      en_US: "width"
+    llm_description: "width"
+    form: llm
+extra:
+  python:
+    source: tools/rotate.py

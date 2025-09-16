@@ -1,0 +1,48 @@
+identity:
+  name: "simple_ops"
+  author: "yt-koike"
+  label:
+    en_US: "Simple OPs"
+description:
+  human:
+    en_US: "Set a pixel"
+  llm: "Set a pixel"
+parameters:
+  - name: image
+    type: file
+    required: true
+    label:
+      en_US: Image
+    human_description:
+      en_US: "Image"
+    llm_description: "Image"
+    form: llm
+  - name: feature
+    type: select
+    required: true
+    label:
+      en_US: feature
+    human_description:
+      en_US: "x"
+    llm_description: "x"
+    form: form
+    options:
+      - value: vflip
+        label:
+          en_US: vflip
+      - value: hflip
+        label:
+          en_US: hflip
+      - value: 2jpeg
+        label:
+          en_US: To JPEG
+      - value: 2bmp
+        label:
+          en_US: To BMP
+      - value: 2webp
+        label:
+          en_US: To WebP
+
+extra:
+  python:
+    source: tools/simple_ops.py
