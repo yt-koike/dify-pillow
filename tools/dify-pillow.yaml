@@ -1,0 +1,30 @@
+identity:
+  name: "dify-pillow"
+  author: "yt-koike"
+  label:
+    en_US: "dify-pillow"
+    zh_Hans: "dify-pillow"
+    pt_BR: "dify-pillow"
+description:
+  human:
+    en_US: "Unofficial plugin for Pillow(PIL), a image editing library"
+    zh_Hans: "Unofficial plugin for Pillow(PIL), a image editing library"
+    pt_BR: "Unofficial plugin for Pillow(PIL), a image editing library"
+  llm: "Unofficial plugin for Pillow(PIL), a image editing library"
+parameters:
+  - name: query
+    type: string
+    required: true
+    label:
+      en_US: Query string
+      zh_Hans: 查询语句
+      pt_BR: Query string
+    human_description:
+      en_US: "Unofficial plugin for Pillow(PIL), a image editing library"
+      zh_Hans: "Unofficial plugin for Pillow(PIL), a image editing library"
+      pt_BR: "Unofficial plugin for Pillow(PIL), a image editing library"
+    llm_description: "Unofficial plugin for Pillow(PIL), a image editing library"
+    form: llm
+extra:
+  python:
+    source: tools/dify-pillow.py
