@@ -1,0 +1,61 @@
+identity:
+  name: "get_pixel"
+  author: "yt-koike"
+  label:
+    en_US: "GetPixel"
+description:
+  human:
+    en_US: "Get a pixel"
+  llm: "Get a pixel"
+parameters:
+  - name: image
+    type: file
+    required: true
+    label:
+      en_US: Image
+    human_description:
+      en_US: "Image"
+    llm_description: "Image"
+    form: llm
+  - name: x
+    type: number
+    default: 0
+    required: true
+    label:
+      en_US: x
+    human_description:
+      en_US: "x"
+    llm_description: "Width"
+    form: llm
+  - name: y
+    type: number
+    default: 0
+    required: true
+    label:
+      en_US: y
+    human_description:
+      en_US: "y"
+    llm_description: "y"
+    form: llm
+extra:
+  python:
+    source: tools/get_pixel.py
+output_schema:
+  type: object
+  properties:
+    r:
+      type: number
+      label:
+        en_US: r
+    g:
+      type: number
+      label:
+        en_US: g
+    b:
+      type: number
+      label:
+        en_US: b
+    alpha:
+      type: number
+      label:
+        en_US: alpha

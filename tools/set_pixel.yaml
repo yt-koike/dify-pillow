@@ -1,0 +1,77 @@
+identity:
+  name: "set_pixel"
+  author: "yt-koike"
+  label:
+    en_US: "Set Pixel"
+description:
+  human:
+    en_US: "Set a pixel"
+  llm: "Set a pixel"
+parameters:
+  - name: image
+    type: file
+    required: true
+    label:
+      en_US: Image
+    human_description:
+      en_US: "Image"
+    llm_description: "Image"
+    form: llm
+  - name: x
+    type: number
+    required: true
+    label:
+      en_US: x
+    human_description:
+      en_US: "x"
+    llm_description: "x"
+    form: llm
+  - name: y
+    type: number
+    required: true
+    label:
+      en_US: y
+    human_description:
+      en_US: "y"
+    llm_description: "y"
+    form: llm
+  - name: r
+    type: number
+    required: true
+    label:
+      en_US: r
+    human_description:
+      en_US: "r"
+    llm_description: "r"
+    form: llm
+  - name: g
+    type: number
+    required: true
+    label:
+      en_US: g
+    human_description:
+      en_US: "g"
+    llm_description: "g"
+    form: llm
+  - name: b
+    type: number
+    required: true
+    label:
+      en_US: b
+    human_description:
+      en_US: "b"
+    llm_description: "b"
+    form: llm
+  - name: alpha
+    type: number
+    default: 255
+    required: true
+    label:
+      en_US: alpha
+    human_description:
+      en_US: "alpha"
+    llm_description: "alpha"
+    form: llm
+extra:
+  python:
+    source: tools/set_pixel.py

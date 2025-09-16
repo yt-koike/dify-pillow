@@ -2,14 +2,10 @@ identity:
   author: "yt-koike"
   name: "dify-pillow"
   label:
-    en_US: "dify-pillow"
-    zh_Hans: "dify-pillow"
-    pt_BR: "dify-pillow"
+    en_US: "Pillow"
   description:
     en_US: "Unofficial plugin for Pillow(PIL), a image editing library"
-    zh_Hans: "Unofficial plugin for Pillow(PIL), a image editing library"
-    pt_BR: "Unofficial plugin for Pillow(PIL), a image editing library"
-  icon: "icon.svg"
+  icon: "pillow-logo-400x400.png"
 
 #########################################################################################
 # If you want to support OAuth, you can uncomment the following code.
@@ -54,7 +50,10 @@ identity:
 #         en_US: "Access Token"
 
 tools:
-  - tools/dify-pillow.yaml
+  - tools/set_pixel.yaml
+  - tools/image_info.yaml
+  - tools/get_pixel.yaml
+  - tools/new_image.yaml
 extra:
   python:
     source: provider/dify-pillow.py

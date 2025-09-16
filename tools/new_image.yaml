@@ -1,0 +1,33 @@
+identity:
+  name: "new_image"
+  author: "yt-koike"
+  label:
+    en_US: "New Image"
+description:
+  human:
+    en_US: "Create a new image"
+  llm: "Create a new image"
+parameters:
+  - name: width
+    type: number
+    default: 256
+    required: true
+    label:
+      en_US: Width
+    human_description:
+      en_US: "Width"
+    llm_description: "Width"
+    form: llm
+  - name: height
+    type: number
+    default: 256
+    required: true
+    label:
+      en_US: Height
+    human_description:
+      en_US: "Height"
+    llm_description: "Height"
+    form: llm
+extra:
+  python:
+    source: tools/new_image.py
