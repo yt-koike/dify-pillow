@@ -6,7 +6,7 @@ identity:
 description:
   human:
     en_US: "Crop"
-  llm: "Set a pixel"
+  llm: "Crop an image"
 parameters:
   - name: image
     type: file
@@ -23,8 +23,8 @@ parameters:
     label:
       en_US: Left X
     human_description:
-      en_US: "width"
-    llm_description: "width"
+      en_US: "Left X"
+    llm_description: "Left X"
     form: llm
   - name: top_y
     type: number
@@ -32,8 +32,8 @@ parameters:
     label:
       en_US: Top Y
     human_description:
-      en_US: "width"
-    llm_description: "width"
+      en_US: "Top Y"
+    llm_description: "Top Y"
     form: llm
   - name: right_x
     type: number
@@ -41,8 +41,8 @@ parameters:
     label:
       en_US: Right X
     human_description:
-      en_US: "width"
-    llm_description: "width"
+      en_US: "Right X"
+    llm_description: "Right X"
     form: llm
   - name: bottom_y
     type: number
@@ -50,8 +50,8 @@ parameters:
     label:
       en_US: Bottom Y
     human_description:
-      en_US: "width"
-    llm_description: "width"
+      en_US: "Bottom Y"
+    llm_description: "Bottom Y"
     form: llm
 extra:
   python:

@@ -2,7 +2,7 @@ identity:
   name: "get_pixel"
   author: "yt-koike"
   label:
-    en_US: "GetPixel"
+    en_US: "Get Pixel"
 description:
   human:
     en_US: "Get a pixel"
