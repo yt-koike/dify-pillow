@@ -12,8 +12,8 @@ description:
   ja_JP: Unofficial plugin for Pillow(PIL), a image editing library
   zh_Hans: Unofficial plugin for Pillow(PIL), a image editing library
   pt_BR: Unofficial plugin for Pillow(PIL), a image editing library
-icon: icon.svg
-icon_dark: icon-dark.svg
+icon: pillow-logo-400x400.png
+icon_dark: pillow-logo-400x400.png
 resource:
   memory: 268435456
   permission:

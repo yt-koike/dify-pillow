@@ -6,5 +6,4 @@
 
 ### Description
 
-
-
+Logo Reference: https://github.com/python-pillow/pillow-logo/tree/main
