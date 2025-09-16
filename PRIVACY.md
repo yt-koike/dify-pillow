@@ -1,3 +1,3 @@
 ## Privacy
 
-!!! Please fill in the privacy policy of the plugin.
+dify-pillow does NOT use any external APIs or collect any personal data.
