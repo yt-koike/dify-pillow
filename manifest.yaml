@@ -1,17 +1,11 @@
 version: 0.0.1
 type: plugin
 author: yt-koike
-name: dify-pillow
+name: pillow
 label:
-  en_US: dify-pillow
-  ja_JP: dify-pillow
-  zh_Hans: dify-pillow
-  pt_BR: dify-pillow
+  en_US: Pillow
 description:
-  en_US: Unofficial plugin for Pillow(PIL), a image editing library
-  ja_JP: Unofficial plugin for Pillow(PIL), a image editing library
-  zh_Hans: Unofficial plugin for Pillow(PIL), a image editing library
-  pt_BR: Unofficial plugin for Pillow(PIL), a image editing library
+  en_US: Unofficial plugin for Pillow(PIL), an image editing library
 icon: pillow-logo-400x400.png
 icon_dark: pillow-logo-400x400.png
 resource:
